@@ -154,7 +154,7 @@
 		0FEADF521A9D5AFD000422FF /* MultiChoiceStrings.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultiChoiceStrings.xib; sourceTree = "<group>"; };
 		0FEADF551A9D90D7000422FF /* CapsuleString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CapsuleString.h; sourceTree = "<group>"; };
 		0FEADF561A9D90D7000422FF /* CapsuleString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CapsuleString.m; sourceTree = "<group>"; };
-		0FEADF581A9D9158000422FF /* define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = define.h; path = "../../../../Dropbox/CMFR XCode/CMFR/CMFR/define.h"; sourceTree = "<group>"; };
+		0FEADF581A9D9158000422FF /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Define.h; path = "../../../../Dropbox/CMFR XCode/CMFR/CMFR/Define.h"; sourceTree = "<group>"; };
 		0FEADF5A1A9F88B7000422FF /* RatingScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatingScale.h; sourceTree = "<group>"; };
 		0FEADF5B1A9F88B7000422FF /* RatingScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatingScale.m; sourceTree = "<group>"; };
 		0FEADF5C1A9F88B7000422FF /* RatingScale.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RatingScale.xib; sourceTree = "<group>"; };
@@ -365,7 +365,7 @@
 		0FEADF591A9E50D4000422FF /* Questionnaire Elements Subclasses */ = {
 			isa = PBXGroup;
 			children = (
-				0FEADF581A9D9158000422FF /* define.h */,
+				0FEADF581A9D9158000422FF /* Define.h */,
 				0FEADF551A9D90D7000422FF /* CapsuleString.h */,
 				0FEADF561A9D90D7000422FF /* CapsuleString.m */,
 				0F666B721ABA1CAB0092604D /* ScrollViewSubClass.h */,
