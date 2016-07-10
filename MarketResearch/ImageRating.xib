@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ImageRating">
+            <connections>
+                <outlet property="inputView" destination="59x-BZ-c9r" id="OHD-ol-03o"/>
+                <outlet property="mainQuestion" destination="Cz2-Hb-cGr" id="HaH-8N-ynD"/>
+                <outlet property="multiChoicesView" destination="bs3-QL-68n" id="iZv-3B-xIy"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="59x-BZ-c9r">
+                    <rect key="frame" x="0.0" y="370" width="600" height="230"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mainQuestion" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cz2-Hb-cGr">
+                            <rect key="frame" x="8" y="11" width="584" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="4DB-1I-hbq"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="23"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bs3-QL-68n">
+                            <rect key="frame" x="37" y="48" width="555" height="174"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="bs3-QL-68n" secondAttribute="trailing" constant="8" id="6IH-88-MEX"/>
+                        <constraint firstItem="bs3-QL-68n" firstAttribute="leading" secondItem="59x-BZ-c9r" secondAttribute="leading" constant="37" id="PB2-aj-jS5"/>
+                        <constraint firstItem="Cz2-Hb-cGr" firstAttribute="top" secondItem="59x-BZ-c9r" secondAttribute="top" constant="11" id="b7j-mi-Aya"/>
+                        <constraint firstAttribute="trailing" secondItem="Cz2-Hb-cGr" secondAttribute="trailing" constant="8" id="lSf-AN-biz"/>
+                        <constraint firstAttribute="bottom" secondItem="bs3-QL-68n" secondAttribute="bottom" constant="8" id="lw8-O0-fag"/>
+                        <constraint firstItem="Cz2-Hb-cGr" firstAttribute="leading" secondItem="59x-BZ-c9r" secondAttribute="leading" constant="8" id="omQ-ou-MpM"/>
+                        <constraint firstItem="bs3-QL-68n" firstAttribute="top" secondItem="Cz2-Hb-cGr" secondAttribute="bottom" constant="-11" id="zKg-bn-mJk"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="59x-BZ-c9r" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="370" id="PBJ-gX-eUQ"/>
+                <constraint firstAttribute="bottom" secondItem="59x-BZ-c9r" secondAttribute="bottom" id="RL6-eX-mPa"/>
+                <constraint firstItem="59x-BZ-c9r" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="UuB-ta-zdA"/>
+                <constraint firstAttribute="trailing" secondItem="59x-BZ-c9r" secondAttribute="trailing" id="e9A-KT-PGb"/>
+            </constraints>
+            <point key="canvasLocation" x="199" y="439"/>
+        </view>
+    </objects>
+</document>
