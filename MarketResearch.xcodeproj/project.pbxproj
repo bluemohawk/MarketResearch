@@ -53,6 +53,7 @@
 		0F67D03C1A9425F200AB25B7 /* YesNo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F67D03B1A9425F200AB25B7 /* YesNo.m */; };
 		0FA006AA1C2DF78A003CA95E /* tower.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FA006A91C2DF78A003CA95E /* tower.png */; };
 		0FA006AE1C2DF817003CA95E /* femme.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FA006AD1C2DF817003CA95E /* femme.png */; };
+		0FD2762B1D3292670035ECBE /* Define.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD2762A1D3292670035ECBE /* Define.m */; };
 		0FD7D3D41AAE61B2004450A6 /* ImageRating.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD7D3D21AAE61B2004450A6 /* ImageRating.m */; };
 		0FD7D3D51AAE61B2004450A6 /* ImageRating.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FD7D3D31AAE61B2004450A6 /* ImageRating.xib */; };
 		0FE900101AA969B3009AE07F /* ResourcesForRatingScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE9000F1AA969B3009AE07F /* ResourcesForRatingScale.m */; };
@@ -142,6 +143,7 @@
 		0F67D03B1A9425F200AB25B7 /* YesNo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YesNo.m; sourceTree = "<group>"; };
 		0FA006A91C2DF78A003CA95E /* tower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tower.png; sourceTree = "<group>"; };
 		0FA006AD1C2DF817003CA95E /* femme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = femme.png; sourceTree = "<group>"; };
+		0FD2762A1D3292670035ECBE /* Define.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Define.m; sourceTree = "<group>"; };
 		0FD7D3D11AAE61B2004450A6 /* ImageRating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageRating.h; sourceTree = "<group>"; };
 		0FD7D3D21AAE61B2004450A6 /* ImageRating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageRating.m; sourceTree = "<group>"; };
 		0FD7D3D31AAE61B2004450A6 /* ImageRating.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageRating.xib; sourceTree = "<group>"; };
@@ -366,6 +368,7 @@
 			isa = PBXGroup;
 			children = (
 				0FEADF581A9D9158000422FF /* Define.h */,
+				0FD2762A1D3292670035ECBE /* Define.m */,
 				0FEADF551A9D90D7000422FF /* CapsuleString.h */,
 				0FEADF561A9D90D7000422FF /* CapsuleString.m */,
 				0F666B721ABA1CAB0092604D /* ScrollViewSubClass.h */,
@@ -505,6 +508,7 @@
 				0F002F021A97A131001EDC00 /* Introduction.m in Sources */,
 				0FD7D3D41AAE61B2004450A6 /* ImageRating.m in Sources */,
 				0F002F071A982E6E001EDC00 /* AnswerButton.m in Sources */,
+				0FD2762B1D3292670035ECBE /* Define.m in Sources */,
 				0FEADF981AA7A1AC000422FF /* ParseCommunicator.m in Sources */,
 				0F67D03C1A9425F200AB25B7 /* YesNo.m in Sources */,
 				0F2131FF1A69CB97005A1D0E /* main.m in Sources */,
