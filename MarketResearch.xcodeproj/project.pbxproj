@@ -144,6 +144,7 @@
 		0FA006A91C2DF78A003CA95E /* tower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tower.png; sourceTree = "<group>"; };
 		0FA006AD1C2DF817003CA95E /* femme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = femme.png; sourceTree = "<group>"; };
 		0FD2762A1D3292670035ECBE /* Define.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Define.m; sourceTree = "<group>"; };
+		0FD2763A1D32954B0035ECBE /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Define.h; path = MarketResearchV0.1/Define.h; sourceTree = "<group>"; };
 		0FD7D3D11AAE61B2004450A6 /* ImageRating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageRating.h; sourceTree = "<group>"; };
 		0FD7D3D21AAE61B2004450A6 /* ImageRating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageRating.m; sourceTree = "<group>"; };
 		0FD7D3D31AAE61B2004450A6 /* ImageRating.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageRating.xib; sourceTree = "<group>"; };
@@ -156,7 +157,6 @@
 		0FEADF521A9D5AFD000422FF /* MultiChoiceStrings.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultiChoiceStrings.xib; sourceTree = "<group>"; };
 		0FEADF551A9D90D7000422FF /* CapsuleString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CapsuleString.h; sourceTree = "<group>"; };
 		0FEADF561A9D90D7000422FF /* CapsuleString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CapsuleString.m; sourceTree = "<group>"; };
-		0FEADF581A9D9158000422FF /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Define.h; path = "../../../../Dropbox/CMFR XCode/CMFR/CMFR/Define.h"; sourceTree = "<group>"; };
 		0FEADF5A1A9F88B7000422FF /* RatingScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatingScale.h; sourceTree = "<group>"; };
 		0FEADF5B1A9F88B7000422FF /* RatingScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatingScale.m; sourceTree = "<group>"; };
 		0FEADF5C1A9F88B7000422FF /* RatingScale.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RatingScale.xib; sourceTree = "<group>"; };
@@ -367,7 +367,7 @@
 		0FEADF591A9E50D4000422FF /* Questionnaire Elements Subclasses */ = {
 			isa = PBXGroup;
 			children = (
-				0FEADF581A9D9158000422FF /* Define.h */,
+				0FD2763A1D32954B0035ECBE /* Define.h */,
 				0FD2762A1D3292670035ECBE /* Define.m */,
 				0FEADF551A9D90D7000422FF /* CapsuleString.h */,
 				0FEADF561A9D90D7000422FF /* CapsuleString.m */,
