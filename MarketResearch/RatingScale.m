@@ -57,6 +57,9 @@
     [self setQuestion:self.resourcesForQuestion_Parse.mainQuestion];
 
     self.tableItemsRated.estimatedRowHeight = 30.0;
+    
+    //self.ratingScale.transform = CGAffineTransformMakeRotation(M_PI_2);
+
 
 }
 
@@ -71,7 +74,7 @@
     self.arrayOfRatingLevels = @[@"Strongly disagree", @"Disagree", @"Neither agree nor disagree", @"Agree", @"Strongly agree"];
     [self.ratingScale addTarget:self action:@selector(dragStartedForSlider:) forControlEvents:UIControlEventTouchDown];
     [self.ratingScale addTarget:self action:@selector(dragEndedForSlider:) forControlEvents:UIControlEventTouchUpInside];
-    
+
     [self setButtonsForAnswer];
 
 }

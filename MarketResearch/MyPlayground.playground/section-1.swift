@@ -116,15 +116,16 @@ unExample.perimeter
 unExample.simpleDescription()
 
 let firstString:String
-1String = "Lapin"
+firstString = "Lapin"
 
 let secondString:String
-2String = "est bleu"
+secondString = "est bleu"
 
 
 let thirdString = (firstString) + (secondString)
 
 print(thirdString)
 
-
+var anArray = [3, 2, 1, 7, 6, 5, 0]
+anArray.sortInPlace()
 

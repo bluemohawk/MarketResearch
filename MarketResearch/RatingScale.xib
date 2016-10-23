@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RatingScale">
@@ -13,6 +14,7 @@
                 <outlet property="ratingDisplay" destination="GCw-gS-L7X" id="Qdd-cF-01z"/>
                 <outlet property="ratingScale" destination="14X-2z-csa" id="ib4-3u-y78"/>
                 <outlet property="tableItemsRated" destination="m0D-Ws-kKD" id="BQ9-LM-wIa"/>
+                <outlet property="testetstest" destination="RbK-Zl-KGa" id="Iy5-xd-fYf"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="widthRatingDisplay" destination="TSJ-70-L5V" id="b21-lA-lsw"/>
                 <outlet property="yAxisDisplay" destination="tl0-MA-b0r" id="Qrd-FF-3kn"/>
@@ -111,6 +113,7 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Fuf-k1-Oyw" id="VcG-Mr-9HU">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                 <autoresizingMask key="autoresizingMask"/>
             </tableViewCellContentView>
             <point key="canvasLocation" x="721" y="550"/>
